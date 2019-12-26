@@ -1,0 +1,6 @@
+aws_region              = "us-east-1"
+client_identifier       = "ABC0"
+client_domain           = "abc.xyz"
+jira_url                = ""
+jira_username           = ""
+jira_pass               = ""

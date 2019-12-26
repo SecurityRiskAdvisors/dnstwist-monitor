@@ -1,0 +1,4 @@
+[submodule "src/dnstwist"]
+	path = src/dnstwist
+	url = https://github.com/elceef/dnstwist
+	ignore = dirty

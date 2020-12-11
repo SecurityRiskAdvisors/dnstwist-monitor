@@ -165,7 +165,7 @@ def lambda_handler(event, context):
     for i in range(len(domains)):
         jobs.put(domains[i])
 
-    for i in range(dnstwist.THREAD_COUNT_DEFAULT*10):
+    for i in range(dnstwist.THREAD_COUNT_DEFAULT*20):
         worker = dnstwist.DomainThread(jobs)
         worker.setDaemon(True)
 
